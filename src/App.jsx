@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
     return (
-        <div className="bg-[url(../public/kaitobg.png)] bg-cover bg-center h-screen w-screen">
+        <div className="bg-[url(/kaitobg.png)] bg-cover bg-center h-screen w-screen">
             <Sidebar />
             <MainContainer />
         </div>
