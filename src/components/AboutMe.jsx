@@ -4,7 +4,7 @@ function AboutMe() {
             {/* Title */}
             <h1
                 style={{ fontFamily: 'Anonymous Pro',  }}
-                className="text-[#F0EEEB] text-3xl font-semibold mb-3"
+                className="text-[#F0EEEB] text-3xl font-semibold pb-5"
             >
                 Hello!
             </h1>
