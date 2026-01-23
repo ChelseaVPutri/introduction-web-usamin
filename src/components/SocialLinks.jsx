@@ -1,12 +1,12 @@
 function SocialLinks() {
     return (
-        <div className="ml-7 pt-7 w-full h-full overflow-auto w3-animate-right">
+        <div className="ml-7 pt-7 pr-10 md:pr-0 lg:pr-0 w-full h-full overflow-auto w3-animate-right">
             {/* Title */}
             <h1
                 style={{ fontFamily: 'Anonymous Pro',  }}
                 className="text-[#F0EEEB] text-3xl font-semibold pb-5"
             >
-                Social Links ‧₊˚♪ 𝄞₊˚⊹
+                Social Links
             </h1>
 
             {/* Social Links List */}
