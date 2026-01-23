@@ -2,6 +2,7 @@ import AboutMe from "./AboutMe";
 import Interests from "./Interests";
 import Faves from "./Faves";
 import BeforeYouFollow from "./BeforeYouFollow";
+import SocialLinks from "./SocialLinks";
 
 function MainContainer({ activeTab }) {
     return (
@@ -11,6 +12,7 @@ function MainContainer({ activeTab }) {
                 {activeTab === 'interests' && <Interests key={'interests'} />}
                 {activeTab === 'faves' && <Faves key={'faves'} />}
                 {activeTab === 'byf' && <BeforeYouFollow key={'byf'} />}
+                {activeTab === 'social-links' && <SocialLinks key={'social-links'} />}
             </div>
         </div>
     );

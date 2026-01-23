@@ -1,5 +1,3 @@
-import ColorBadgeBar from "./ColorBadgeBar";
-
 function AboutMe() {
     return (
         <div className="ml-7 pt-7 pr-10 md:pr-0 lg:pr-0 w-full h-full overflow-auto w3-animate-right">

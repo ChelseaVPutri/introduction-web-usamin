@@ -71,9 +71,12 @@ function Sidebar({ onTabChange, activeTab }) {
                 </li>
 
 
-                {/* Info */}
+                {/* Social Links */}
                 <li>
-                    <a href="#" className="block transition-transform hover:scale-110">
+                    <button
+                        onClick={() => onTabChange('social-links')}
+                        className={`block transition-transform hover:scale-110 ${activeTab === 'social-links' ? 'opacity-100' : 'opacity-60'}`}
+                    >
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="w-10 h-10">
                             <g fill="none">
                                 <path fill="#66e1ff" d="M23 7.215V19.65a1.913 1.913 0 0 1-1.913 1.913H2.913A1.913 1.913 0 0 1 1 19.65V7.215z"/>
@@ -86,7 +89,7 @@ function Sidebar({ onTabChange, activeTab }) {
                                 <path stroke="#191919" d="M10.086 5.07a.24.24 0 1 0 0-.477"/>
                             </g>
                         </svg>
-                    </a>
+                    </button>
                 </li>
             </ul>
         </div>
