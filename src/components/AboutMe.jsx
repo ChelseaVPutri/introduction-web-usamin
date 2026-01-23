@@ -1,6 +1,8 @@
+import ColorBadgeBar from "./ColorBadgeBar";
+
 function AboutMe() {
     return (
-        <div className="ml-7 pt-7 w-full h-full overflow-auto w3-animate-right">
+        <div className="ml-7 pt-7 pr-10 md:pr-0 lg:pr-0 w-full h-full overflow-auto w3-animate-right">
             {/* Title */}
             <h1
                 style={{ fontFamily: 'Anonymous Pro',  }}
@@ -9,7 +11,7 @@ function AboutMe() {
                 Hello!
             </h1>
 
-            <div className="flex flex-col md:flex-row items-start">
+            <div className="flex flex-col md:flex-row gap-3 items-start">
                 <img src="/pfpkaito.jpg" alt="" width={250} height={150} />
 
                 {/* Description */}
@@ -18,17 +20,10 @@ function AboutMe() {
                     <p>♬  she/her</p>
                     <p>♬  20+</p>
                     <p>♬  mostly tweet in ID but sometimes I use ENG too</p>
+                    <p className="mt-5">⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹</p>
                 </div>
             </div>
                 
-            <div className="text-[#F0EEEB] mt-5 text-lg md:text-xl lg:text-xl">
-                <p>this website will contains:</p>
-                <p>├── about me (this section)</p>
-                <p>├── interests</p>
-                <p>├── faves</p>
-                <p>├── before you follow</p>
-                <p>└── don't interact/don't follow</p>
-            </div>
         </div>
     );
 }

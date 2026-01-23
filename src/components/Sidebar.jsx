@@ -54,7 +54,10 @@ function Sidebar({ onTabChange, activeTab }) {
 
                 {/* BYF */}
                 <li>
-                    <a href="#" className="block transition-transform hover:scale-110">
+                    <button
+                        onClick={() => onTabChange('byf')}
+                        className={`block transition-transform hover:scale-110 ${activeTab === 'byf' ? 'opacity-100' : 'opacity-60'}`}
+                    >
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" className="w-10 h-10">
                             <g fill="none">
                                 <path fill="#ffef5e" d="M23 17.26a.957.957 0 0 1-.957.957H11.522l-3.826 3.827v-3.827h-5.74A.956.956 0 0 1 1 17.261V2.913a.957.957 0 0 1 .957-.956h20.087a.956.956 0 0 1 .956.956z" /><path fill="#fff9bf" d="M21.267 1.957H1.957A.957.957 0 0 0 1 2.913v14.348a.957.957 0 0 0 .957.956h3.049z" />
@@ -63,21 +66,10 @@ function Sidebar({ onTabChange, activeTab }) {
                                 <path stroke="#191919" d="M12.478 15.109a.24.24 0 0 1 0-.479m0 .479a.24.24 0 0 0 0-.479" />
                             </g>
                         </svg>
-                    </a>
+                    </button>
+                        
                 </li>
 
-                {/* DNI */}
-                <li>
-                    <a href="#" className="block transition-transform hover:scale-110">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" className="w-10 h-10">
-                            <g fill="none">
-                                <path fill="#ff808c" d="m7.45 12l-6.363 6.363a1.01 1.01 0 0 0 0 1.43l3.12 3.12a1.01 1.01 0 0 0 1.43 0L12 16.55l6.363 6.363a1.01 1.01 0 0 0 1.43 0l3.12-3.12a1.01 1.01 0 0 0 0-1.43L16.55 12l6.363-6.363a1.01 1.01 0 0 0 0-1.43l-3.12-3.12a1.01 1.01 0 0 0-1.43 0L12 7.45L5.637 1.088a1.01 1.01 0 0 0-1.43 0l-3.12 3.12a1.01 1.01 0 0 0 0 1.43z" />
-                                <path fill="#ffbfc5" d="m1.088 19.792l1.56 1.56L21.352 2.648l-1.56-1.56a1.01 1.01 0 0 0-1.43 0L12 7.45L5.637 1.087a1.01 1.01 0 0 0-1.43 0l-3.12 3.12a1.01 1.01 0 0 0 0 1.43L7.45 12l-6.362 6.363a1.01 1.01 0 0 0 0 1.43" />
-                                <path stroke="#191919" stroke-linecap="round" stroke-linejoin="round" d="m7.45 12l-6.363 6.363a1.01 1.01 0 0 0 0 1.43l3.12 3.12a1.01 1.01 0 0 0 1.43 0L12 16.55l6.363 6.363a1.01 1.01 0 0 0 1.43 0l3.12-3.12a1.01 1.01 0 0 0 0-1.43L16.55 12l6.363-6.363a1.01 1.01 0 0 0 0-1.43l-3.12-3.12a1.01 1.01 0 0 0-1.43 0L12 7.45L5.637 1.088a1.01 1.01 0 0 0-1.43 0l-3.12 3.12a1.01 1.01 0 0 0 0 1.43z" />
-                            </g>
-                        </svg>
-                    </a>
-                </li>
 
                 {/* Info */}
                 <li>
