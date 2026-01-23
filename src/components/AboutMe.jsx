@@ -9,7 +9,7 @@ function AboutMe() {
                 Hello!
             </h1>
 
-            <div className="flex flex-col md:flex-row gap8 items-start">
+            <div className="flex flex-col md:flex-row items-start">
                 <img src="/pfpkaito.jpg" alt="" width={250} height={150} />
 
                 {/* Description */}

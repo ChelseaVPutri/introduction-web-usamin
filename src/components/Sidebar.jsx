@@ -1,7 +1,7 @@
 function Sidebar({ onTabChange, activeTab }) {
     return (
         <div className="backdrop-blur-xs bg-[#023e8a]/40 fixed ml-5 md:ml-8 lg:ml-10 xl:ml-10 h-[70%] top-1/2 -translate-y-1/2 rounded-full w-17.5 flex flex-col items-center justify-center py-10">
-            <ul className="flex flex-col gap-8">
+            <ul className="flex flex-col gap-8 overflow-y-auto h-full justify-center">
                 {/* About Me */}
                 <li>
                     <button
@@ -38,7 +38,10 @@ function Sidebar({ onTabChange, activeTab }) {
 
                 {/* Faves */}
                 <li>
-                    <a href="" className="block transition-transform hover:scale-110">
+                    <button
+                        onClick={() => onTabChange('faves')}
+                        className={`block transition-transform hover:scale-110 ${activeTab === 'faves' ? 'opacity-100' : 'opacity-60'}`}
+                    >
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" className="w-10 h-10">
                             <g fill="none">
                                 <path fill="#e3e3e3" d="M1 19.174a21 21 0 0 1 5.74-.957c2.869 0 7.173 1.913 10.043 1.913a17.7 17.7 0 0 0 5.594-1.19a.96.96 0 0 0 .623-.897V4.77a.955.955 0 0 0-1.264-.906a16.6 16.6 0 0 1-4.953.963c-2.87 0-7.174-1.913-10.044-1.913A21 21 0 0 0 1 3.871z" />
@@ -46,7 +49,7 @@ function Sidebar({ onTabChange, activeTab }) {
                                 <path stroke="#191919" stroke-linecap="round" stroke-linejoin="round" d="M1 23V1m0 18.174a21 21 0 0 1 5.74-.957c2.869 0 7.173 1.913 10.043 1.913a17.7 17.7 0 0 0 5.594-1.19a.96.96 0 0 0 .623-.897V4.77a.955.955 0 0 0-1.264-.906a16.6 16.6 0 0 1-4.953.963c-2.87 0-7.174-1.913-10.044-1.913A21 21 0 0 0 1 3.871z" /><path fill="#ff808c" stroke="#191919" stroke-linecap="round" stroke-linejoin="round" d="M12.81 15.003a.456.456 0 0 1-.663 0l-2.93-3.057a1.93 1.93 0 1 1 2.729-2.727l.532.532l.533-.532a1.93 1.93 0 0 1 2.728 2.728z" />
                             </g>
                         </svg>
-                    </a>
+                    </button>
                 </li>
 
                 {/* BYF */}
