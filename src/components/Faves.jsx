@@ -1,6 +1,6 @@
 function Faves() {
     return (
-        <div className="ml-7 pt-7 pr-0 md:pr-5 w-full h-full overflow-auto w3-animate-right">
+        <div className="ml-7 pt-7 pr-10 md:pr-5 w-full h-full overflow-auto w3-animate-right">
             {/* Title */}
             <h1
                 style={{ fontFamily: 'Anonymous Pro',  }}
@@ -13,14 +13,13 @@ function Faves() {
             <div className="overflow-auto">
                 <ul className="text-[#F0EEEB] flex flex-col md:flex-row items-start gap-10 text-lg md:text-xl lg:text-xl">
                     <li className="mb-2">
-                        <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">♬  Fate/series and another Nasuverse</span>
+                        <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">♬  Fate and Nasuverse</span>
                         <p>├── Sherlock Holmes</p>
                         <p>├── James Moriarty</p>
                         <p>├── Charlemagne</p>
                         <p>├── Kirschtaria Wodime</p>
                         <p>├── Morgan le Fae</p>
-                        <p>├── Hansa Cervantes</p>
-                        <p>└── Ciel</p>
+                        <p>└── Hansa Cervantes</p>
                     </li>
 
                     <li className="mb-2">
@@ -35,12 +34,12 @@ function Faves() {
                     <li className="mb-2">
                         <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">♬  Umamusume</span>
                         <p>├── Fuji Kiseki</p>
-                        <p>├── Katsuragi Ace</p>
                         <p>├── Sirius Symboli</p>
                         <p>├── Symboli Rudolf</p>
+                        <p>├── Katsuragi Ace</p>
                         <p>├── Mr. CB</p>
-                        <p>├── Gentildonna</p>
-                        <p>└── Orfevre</p>
+                        <p>├── Silence Suzuka</p>
+                        <p>└── Rice Shower</p>
                     </li>
 
                     <li className="mb-2">
@@ -63,7 +62,8 @@ function Faves() {
                         <p>├── Neuvillette (Genshin Impact)</p>
                         <p>├── Pure Vessel (Hollow Knight)</p>
                         <p>├── Hornet (Hollow Knight)</p>
-                        <p>└── Yi (Nine Sols)</p>
+                        <p>├── Maelle (E33)</p>
+                        <p>└── Gustave (E33)</p>
                     </li>
 
                     <li className="mb-2 md:mt-10 lg:mt-10">
@@ -71,14 +71,18 @@ function Faves() {
                         <p>├── Neuvillete x Furina</p>
                         <p>├── Ferdinand x Rozemyne</p>
                         <p>├── Zhongli x Guizhong</p>
+                        <p>├── Escoffier x Furina</p>
+                        <p>├── Madame Ping x Guizhong</p>
                         <p>├── Sirius x Rudolf</p>
                         <p>├── Ace x CB</p>
+                        <p>├── Suzuka x Groove</p>
                         <p>├── KAITO x Luka</p>
                         <p>├── Arthur x Morgan (Fate)</p>
                         <p>├── Kirschtaria x Ophelia</p>
                         <p>├── Kadoc x Gudako</p>
-                        <p>├── John x Sherlock (Sherlock Holmes)</p>
-                        <p>└── Shakra x Hornet</p>
+                        <p>├── Richard x Ayaka</p>
+                        <p>├── Jester x Hansa</p>
+                        <p>└── John x Sherlock (Sherlock Holmes)</p>
                     </li>
                 </ul>
             </div>         

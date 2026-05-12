@@ -19,28 +19,43 @@ function BeforeYouFollow() {
                     <p>♬ Sometimes my words or saying are very harsh</p>
                     <p>♬ Full yapping of current hyperfixation</p>
                     <p>♬ Selective follow</p>
+                    <p>♬ I'm proshipper</p>
+                    <p>♬ I enjoy some DDNE trope (especially siblings-incest)</p>
                     <p>♬ Block-unblock or hard block to break mutual</p>
                 </div>
 
                 {/* DNI */}
                 <div>
-                    <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">── .✦ Do Not Interact</span>
+                    <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">
+                        ── .✦ Do Not Interact
+                    </span>
                     <p>♬ 02 voters, islamophobic, homophobic, zionist</p>
-                    <p>♬ Hate or don't like BxG or GxG couple</p>
+                    <p>♬ Hate BxG or GxG couple</p>
                     <p>♬ NSFW account</p>
+                    <p>♬ Heavy BxB shipper</p>
                     <p>♬ LADS player (except current moots)</p>
                     <p>♬ Fandom police or puritan</p>
                     <p>♬ Kpopers/heavy kpop account</p>
                     <p>♬ Stantwt/American pop enjoyer</p>
-                    <p>♬ HC neuvifuri as father-daughter relationship</p>
-                    <p>♬ You ship one of these couple:</p>
-                    <div className="ml-6">
-                        <p>├── Wriothesley x Neuvillette</p>
-                        <p>├── Zhongli x Childe</p>
-                        <p>├── Neuvillette x Navia</p>
-                        <p>├── Sherlock x William (MTP)</p>
-                        <p>└── Arlecchino x Furina</p>
-                    </div>
+                    <p>♬ You ship one of my NOTP (except current moots)</p>
+                </div>
+
+                {/* NOTP */}
+                <div>
+                    <span className="font-bold bg-[#84A3BA] px-2 rounded-sm">
+                        ── .✦ NOTP
+                    </span>
+                    <p>This NOTP list also applies to switch/reverse position</p>
+                    <p>- Wriothesley x Neuvillette</p>
+                    <p>- Neuvillette x Navia</p>
+                    <p>- Wriothesley x Navia</p>
+                    <p>- Zhongli x Childe</p>
+                    <p>- Sherlock x William (MTP)</p>
+                    <p>- Arlecchino x Furina</p>
+                    <p>- Alhaitham x Kaveh</p>
+                    <p>- Phainon x Mydei</p>
+                    <p>- Nikki x Giovanni (Infinity Nikki)</p>
+                    <p>- Aventurine x Ratio</p>
                 </div>
             </div>
         </div>
